@@ -7,7 +7,7 @@
 
 <body>
 
-    <h2>Media with img and video tags</h2>
+    <h2>Media with picture, img, video, and audio tags</h2>
 
 
 <!--video tags-->
@@ -43,6 +43,25 @@
 <img src="moon.jpg" width="800" height="650">
 
 <hr size="4">
+
+<h3>Cascade Lake with 'picture' element</h3>
+<picture>
+
+    <p>Picture test here</p>
+    <source media="(min-width:450px)" srcset="cascadelake.jpg">
+    <source media="(min-width:465px)" srcset="cascadelake2.jpg">
+    <img src="cascadelake3.jpg" alt="Cascade Lake" style="width:auto;">
+    
+  </picture>
+
+  <h3>Audio contorls element..</h3>
+
+<h3>How to say 'welcome' in Estonian...</h3>
+<audio controls>
+    <source src="estonianwelcom.mp3">
+</audio>
+
+
 
 
 

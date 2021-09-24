@@ -39,7 +39,8 @@
             <li>'img'</li>
             <li>'video'</li>
             <li>'source'</li>
-            <li>       </li>
+            <li>  'audio'     </li>
+            <li>'picture'</li>
         </ol>
     </div>
 
@@ -49,11 +50,11 @@
         <h3>Formatting</h3>
 
         <ol>
-            <li>   </li>
-            <li>   </li>
-            <li>   </li>
-            <li>   </li>
-            <li>   </li>
+            <li> 'b'  </li>
+            <li>  'em' </li>
+            <li> 'cite'  </li>
+            <li> 'q'  </li>
+            <li> 'strong'  </li>
         </ol>
     </div>
 
@@ -63,11 +64,11 @@
         <h3>Links and Lists</h3>
 
         <ol>
-            <li>  </li>
-            <li>  </li>
-            <li>  </li>
-            <li>  </li>
-            <li>  </li>
+            <li> 'a' </li>
+            <li> 'nav' </li>
+            <li> 'ul'  </li>
+            <li> 'ol' </li>
+            <li> 'dd'  </li>
         </ol>
 
     </div>
@@ -81,7 +82,7 @@
             <li> 'div'   </li>
             <li> 'main'  </li>
             <li> 'section'  </li>
-            <li> dialog'  </li>
+            <li> 'dialog'  </li>
         </ol>
     </section>
 
@@ -169,12 +170,21 @@
 <p> Study Estonian with <cite>Estonian Textbook: Grammar and Coversation</cite> by Juhan Tuldava.</p>
 
 <!--description list to define language statements formatting with 'b' tag-->
+<div>
 <p><h3>Formatting with 'b', 'dl', 'dt', and 'dd' tags</h3></p>
 <p>Estonian phrases</p>
 <dl>
 <dt>Welcome!</dt>
 <dd><b>Tere tulemast!</b></dd>
 </dl>
+
+<h3>How to say 'welcome' in Estonian...</h3>
+<audio controls>
+    <source src="estonianwelcom.mp3">
+</audio>
+
+</div>
+
 
 <hr size="4">
 
@@ -183,6 +193,8 @@
 <h4>Sayings</h4>
 <p>Estonian proverb says, <br>
 <q>To speak is silver, to be silent is gold.</q></p>
+
+<h3>blockquote and quote elements</h3>
 
 <p>Finnish proverb says <blockquote><q>First you build the sauna, then the house.</q></blockquote></p>
 
@@ -207,6 +219,17 @@
 <img src="moon.jpg" width="800" height="650">
 
 <hr size="4">
+
+<h3>use of the 'picture' tag</h3>
+
+<picture>
+
+    <p>Picture test here</p>
+    <source media="(min-width:450px)" srcset="cascadelake.jpg">
+    <source media="(min-width:465px)" srcset="cascadelake2.jpg">
+    <img src="cascadelake3.jpg" alt="Cascade Lake" style="width:auto;">
+    
+  </picture>
 
 <p>My university is BSU- <a href="http://www.boisestate.edu">Boise State University</a></p>
 
