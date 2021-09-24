@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title> </title>
+    <title> Nested Tags</title>
 
     <style>
 
@@ -13,6 +13,15 @@
             background-color: aquamarine;
         }
 
+        .autumn {
+            background-color: black;
+            color: orange;
+        }
+
+        .fallcolor {
+            font-size: 24px;
+        }
+
     </style>
 
 </head>
@@ -20,15 +29,19 @@
 <body>
 
     <h2>Nested tags</h2>
-<p> These are nested within 'main', 'div', 'ul' and 'li' tags</p>
-<main>
-    <div class="division">
+<p> Items on this page are nested within 'main', 'div', 'p', 'em', 'ul' and 'li' tags</p>
 
-        <p><a href="https://www.boisestate.edu">Boise State University</a></p>
+<h3>Here are some favorite websites</h3>
+<main>
+<div class="division">
+
+    <ul>
+
+        <li><p><a href="https://www.boisestate.edu">Boise State University</a></p></li>
+        <li><p><a href="https://www.wunderground.com">Weather Underground</a></p></li>
         
-        
-        
-        </div>
+    </ul>
+</div>
 
 
    <article>
@@ -36,22 +49,27 @@
 
    </article>
 
-    
+    <div>
     <section class="container">
-        <p>This is my paragraph</p>
+        <p><em><b>This is my paragraph inside a section within a division within an HTML document</b></em></p>
         <a href="#">This is a link</a>
     
     
     </section>
+    </div>
 
-    <article>
+    <article class="autumn">
         <header>
-          <h1>A heading here</h1>
-          <p>Posted by John Doe</p>
-          <p>Some additional information here</p>
+          <h1><em>We are now officially in the season of Autumn, otherwise known as Fall</em></h1>
+          <p>Posted by Matt Christman</p>
+          <p>Tuesday, September 21, was the official first day of Fall, the Autumn Equinox</p>
         </header>
-        <p>Lorem Ipsum dolor set amet....</p>
+        
       </article>
+
+      <h3>The span element to color specific text in a sentence</h3>
+
+<p class="fallcolor">Common festive colors for Halloween and Autumn are <span style="color:orange;font-weight:bold">orange</span> and <span style="color:black;font-weight:bold">black</span>.</p>
 
 
 
