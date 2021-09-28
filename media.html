@@ -1,15 +1,93 @@
 <!DOCTYPE html>
+<html>
+<head>
+    <title> MEDIA </title>
 
-<html lang="en">
-    <head>
-        <title>Media</title>
-    </head>
-    <body>
-       
+</head>
+
+<body>
+
+    <h2>Media with picture, img, video, and audio tags</h2>
+
+    <table>
+        <caption><strong><h3>Võrts Lake and Freedom Square</h3></strong></caption>
+        <tr>
+        <td>
+        <img src="vortslake.jpg" width="700" height="550">
+        </td>
+        <td>
+        
+        <img src="freedomsquare.jpg" width="700" height="550">
+        </td>
+        </tr>
+        </table>
+        
+        <br>
+        
+        <p><img src="vortsjarv.jpg" width="700" height="550"></p>
+<!--video tags-->
+<h3>Sunset at the Baltic Sea...</h3>
+
+<p><video controls>
+<source src="baltic.mp4">
+</video></p>
+
+<hr size="4">
+
+<h3>Bicycle tour in Estonian village...</h3>
 
 
 
-<h3>This is my media file</h3>
+<p><video controls>
+<source src="bicycletour.mp4">
+</video></p>
+
+<!--image tags-->
+<h3>Columbia River at Richland, Washington</h3>
+<img src="columbiariver.jpg" width="800" height="650">
+
+<hr size="4">
+
+<p>Now living in Idaho again, and I have been to the Owyhee mountains...</p>
+
+<img src="owyhees.jpg" width="800" height="650">
+
+<hr size="4">
+
+<p>Astronomy is a favorite past-time, especially watching the moon....</p>
+
+<img src="moon.jpg" width="800" height="650">
+
+<hr size="4">
+
+<h3>Cascade Lake with 'picture' element</h3>
+<picture>
+
+    <p>Picture test here</p>
+    <source media="(min-width:450px)" srcset="cascadelake.jpg">
+    <source media="(min-width:465px)" srcset="cascadelake2.jpg">
+    <img src="cascadelake3.jpg" alt="Cascade Lake" style="width:auto;">
+    
+  </picture>
+
+  <h3>Audio contorls element..</h3>
+
+<h3>How to say 'welcome' in Estonian...</h3>
+<audio controls>
+    <source src="estonianwelcom.mp3">
+</audio>
+
+
+
+
+
+
+<footer>
+    <p>Matt's Website Design Copyright © Matt Christman</p>
+    </footer>
+
+    <p>Back to <a href="https://mchristmanbsu.github.io">My Homepage</a></p>
 
 </body>
+
 </html>
