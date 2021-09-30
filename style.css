@@ -1,3 +1,50 @@
+
+.blue {
+    background-color: rgb(3, 3, 48);
+
+}
+
+.blue-border {
+border-color: rgb(2, 2, 51);
+border-width: 5px;
+border-style: solid;
+border-radius: 4px;
+}
+
+.a {text-decoration: none;
+font-family: Verdana;
+font-size: 14pt;
+color: white}
+
+.a:hover {background: white;
+color: navy}
+
+.button {
+background-color: #110769;
+border: none;
+color: white;
+padding: 15px 32px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+margin: 4px 2px;
+cursor: pointer;
+}
+
+.button:hover {
+background: red;
+color: black;
+}
+
+
+
+
+
+
+
+/*
+
 .special {
     color: red;
 }
@@ -34,3 +81,4 @@ P {
     font-size: 32px!important;
 
 }
+/*

@@ -4,12 +4,12 @@
 <html>
 <head>
 
-
+<link rel="stylesheet" href="style.css">
 
 <title></title>
 
 <style>
-
+/*
 .blue {
             background-color: rgb(3, 3, 48);
         
@@ -30,8 +30,35 @@
 .a:hover {background: white;
 	color: navy}
 
+    */
+
+    .button {
+  background-color: #110769;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button:hover {
+    background: red;
+    color: black;
+}
+
+.table {
+    background-color:teal;
+}
+
+
 
 </style>
+
+</head>
 
 <body>
 
@@ -131,6 +158,9 @@ info
 
     <h2 align="center">Assignment Links</h2>
 
+    
+<!--
+    
     <table cellspacing="50" align="center">
         <tr>
             <td><a class="a" a href="assignment1.html">Assignment 1</a></td>
@@ -141,57 +171,59 @@ info
         </tr>
     </table>
 
+-->
+
+    <table class="table" align="center">
+
+    <tr>        
+         <td>   
+            <a href="assignment1.html" class="button">Assignment 1</a> 
+            <a href="media.html" class="button">Media</a>
+            <a href="tags.html" class="button">Tags</a>
+            <a href="nested.html" class="button">Nested</a> 
+</td>
+    </tr>
+    </table> 
+<br>
+
 </div>
 
 
 <hr size="5" color="blue">
 
 
+<h2>In-class CSS practice 9/30/21</h2>
 
-<!--
+<h3>Buttons</h3>
 
-<h3>This website will continue to develop over the next several weeks.</h3>
-<h2 class="red-background">The following links below will take you to the pages required for HTML Assignment 2.</h2> 
-
-
-
-<nav>
-    <ul>
-        
-        <li><a href="media.html">Media</a></li>
-        <li><a href="tags.html">Tags</a></li>
-        <li><a href="nested.html">Nested</a></li>
-    </ul>
-</nav>
-<h1 class="special">This is a heading</h1>
-<h2 class="special special2">This my second heading</h2>
-
-<section class="container">
-    <p>This is my paragraph</p>
-    <a href="#">This is a link</a>
+<button>Default Button</button>
 
 
-</section>
+<a href="media.html" class="button">Media</a>
+<a href="tags.html" class="button">Tags</a>
+<a href="nested.html" class="button">Nested</a>
 
--->
+<br>
+<br>
 
+<div>
 
+<button><a href="media.html">Media</a></button> <button><a href="tags.html">Tags</a></button> <button><a href="nested.html">Nested</a></button>
 
+</div>
 
+<br>
 
+<table class="table">
 
-<!--this list is excluded at this time in preference to the ordered list
-<ul>
-<li>Idaho</li>
-<li>California</li>
-<li>Louisiana</li>
-<li>Estonia</li>
-</ul>
--->
+    
+        <td> <a href="media.html" class="button">Media</a>
+            <a href="tags.html" class="button">Tags</a>
+            <a href="nested.html" class="button">Nested</a> </td>
+    </tr>
+    </table>
 
-
-
-
+<br>
 
 <p><a href="#top"><font size="-1">To top of page</font></a></p>
 
