@@ -55,6 +55,13 @@ color: black;
 
   }
 
+  #flag {
+      height: 30px;
+      width: 40px;
+      border-style: solid;
+      border-width: 2px;
+  }
+
   
   
 
