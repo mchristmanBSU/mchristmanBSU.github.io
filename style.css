@@ -1,6 +1,12 @@
-
 .blue {
     background-color: rgb(3, 3, 48);
+    text-align: center;
+
+}
+
+.blue2 {
+    background-color: rgb(3, 3, 48);
+    
 
 }
 
@@ -37,14 +43,14 @@ background: red;
 color: black;
 }
 
-  
-  .table {
-      background-color:teal;
-  }
+ 
+
 
   #image {
-      height: 25px;
-      width: 35px;
+      height: 350px;
+      width: 325px;
+      border-width: 5px;
+      
   }
 
   #flag {
@@ -52,64 +58,32 @@ color: black;
     width: 35px;
     border-style: solid;
     border-width: 2px;
-
+    position: relative;
+    animation-name: flag;
+    animation-duration: 8s;
   }
 
-  #flag {
-      height: 30px;
-      width: 40px;
-      border-style: solid;
-      border-width: 2px;
-  }
-
-  
-  
-
-
-  
-  
-
-
-
-
-
-
-/*
-
-.special {
-    color: red;
+@keyframes flag {
+0%	{right:200px; top:0px;}
+25%	{right:200px; top:200px;}
+50%	{right:200px; top:0px;}
+75% 	{right:200px; top:200px;}
+100% 	{right:200px; top:0px;}
 }
 
-.special2 {
-     background: black;
+.blue h3 {
+background: teal;
 }
 
-a {
-    color: blue;
+.blue2 h2 {
+background: teal;
+text-align: center;
 }
 
-section a {
-    color: green;
-}
-
-.container {
-    color: orange;
-}
-
-p {
-    font-size: 12px;
-}
-
-p {
-    font-size: 24px;
-}
-
-nav li a {
-    color: magenta;
-}
-
-P {
-    font-size: 32px!important;
+.blue2 table {
+margin-left: 525px;
+background-color: teal;
 
 }
-/*
+
+
