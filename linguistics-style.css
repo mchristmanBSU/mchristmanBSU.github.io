@@ -81,10 +81,13 @@ color: blue;
 
 
 
-.blue {
-background-color: navy;
-color: orange;
-}
+  .blue {
+    background-color: navy;
+    color: orange;
+    text-align: center;
+    padding: 5px;
+    }
+    
 
 
 /*Blog*/
