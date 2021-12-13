@@ -33,7 +33,7 @@ background-color: teal;
 
 
 .blue-border {
-border-color: rgb(2, 2, 51);
+border-color: rgb(6, 6, 131);
 border-width: 5px;
 border-style: solid;
 border-radius: 4px;
@@ -72,8 +72,8 @@ color: blue;
 
 
   #image {
-      height: 350px;
-      width: 325px;
+      height: 450px;
+      width: 425px;
       border-width: 5px;
       image-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
       
